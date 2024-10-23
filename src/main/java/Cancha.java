@@ -7,7 +7,7 @@ public class Cancha {
 	private String tipoSuperficie;
 	private String ubicacion;
 	private int capacidadEspectadores;
-	private Collection<ArrayList<Hora>> horario;
+	private ArrayList<Hora> horario;
 
 	public String getTipoSuperficie() {
 		return this.tipoSuperficie;

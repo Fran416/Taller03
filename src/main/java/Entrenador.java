@@ -5,6 +5,12 @@ public class Entrenador {
 	private String experiencia;
 	private String deporteEspecializacion;
 
+	public Entrenador(String nombre, String experiencia, String deporteEspecializacion) {
+		this.nombre = nombre;
+		this.experiencia = experiencia;
+		this.deporteEspecializacion = deporteEspecializacion;
+	}
+
 	public String getNombre() {
 		return this.nombre;
 	}

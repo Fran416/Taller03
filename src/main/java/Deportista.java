@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Deportista {
 
 	Equipo equipo;
@@ -5,6 +7,14 @@ public class Deportista {
 	private String apellido;
 	private ArrayList<String> contacto;
 	private String deporte;
+	Collection<ClubDeportivo> club;
+
+	public Deportista(Equipo equipo, String nombre, String apellido, ArrayList<String> contacto) {
+		this.equipo = equipo;
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.contacto = contacto;
+	}
 
 	public String getNombre() {
 		return this.nombre;

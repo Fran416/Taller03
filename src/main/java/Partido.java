@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Partido {
 
-	private Collection<ArrayList<Equipo>> equipos;
+	private ArrayList<Equipo> equipos;
 	private Cancha cancha;
 	private String resultado;
 	private String fecha;

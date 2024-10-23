@@ -2,12 +2,15 @@ import java.util.*;
 
 public class Equipo {
 
-	ClubDeportivo club;
 	Partido partido;
 	private String nombre;
 	private String deporte;
-	private Collection<ArraList<Deportista>> deportistas;
+	private ArrayList<Deportista> deportistas;
 	private Entrenador entrenador;
+
+	public void agregarDeportista(Deportista deportista) {
+		this.deportistas.add(deportista);
+	}
 
 	public String getNombre() {
 		return this.nombre;
@@ -33,7 +36,7 @@ public class Equipo {
 		this.deporte = deporte;
 	}
 
-	public ArraList<Deportista> getDeportistas() {
+	public ArrayList<Deportista> getDeportistas() {
 		return this.deportistas;
 	}
 
@@ -41,7 +44,7 @@ public class Equipo {
 	 * 
 	 * @param deportistas
 	 */
-	public void setDeportistas(ArraList<Deportista> deportistas) {
+	public void setDeportistas(ArrayList<Deportista> deportistas) {
 		this.deportistas = deportistas;
 	}
 
