@@ -19,5 +19,5 @@
 - Las canchas deben consultar disponibilidad para evitar lo anterior y realizar reservas
 
 
-### Desarrollador (nombre | usuario)
+### Desarrollador (nombre  |  usuario)
 - Francisco Lizama | Fran416
