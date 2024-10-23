@@ -1,31 +1,36 @@
 public class Hora {
 
 	Cancha horas;
-	private int hora;
-	private int minuto;
+	private int horaIncio;
+	private int minutoInicio;
 
-	public int getHora() {
-		return this.hora;
+	public Hora(int horaIncio, int minutoInicio) {
+		this.horaIncio = horaIncio;
+		this.minutoInicio = minutoInicio;
+	}
+
+	public int getHoraIncio() {
+		return this.horaIncio;
 	}
 
 	/**
 	 * 
-	 * @param hora
+	 * @param horaIncio
 	 */
-	public void setHora(int hora) {
-		this.hora = hora;
+	public void setHoraIncio(int horaIncio) {
+		this.horaIncio = horaIncio;
 	}
 
-	public int getMinuto() {
-		return this.minuto;
+	public int getMinutoInicio() {
+		return this.minutoInicio;
 	}
 
 	/**
 	 * 
-	 * @param minuto
+	 * @param minutoInicio
 	 */
-	public void setMinuto(int minuto) {
-		this.minuto = minuto;
+	public void setMinutoInicio(int minutoInicio) {
+		this.minutoInicio = minutoInicio;
 	}
 
 }

@@ -2,11 +2,17 @@ import java.util.*;
 
 public class Equipo {
 
-	Partido partido;
 	private String nombre;
 	private String deporte;
 	private ArrayList<Deportista> deportistas;
 	private Entrenador entrenador;
+
+	public Equipo(String nombre, String deporte) {
+		this.nombre = nombre;
+		this.deporte = deporte;
+		this.entrenador = null;
+		this.deportistas = new ArrayList<Deportista>();
+	}
 
 	public void agregarDeportista(Deportista deportista) {
 		this.deportistas.add(deportista);

@@ -9,6 +9,17 @@ public class Cancha {
 	private int capacidadEspectadores;
 	private ArrayList<Hora> horario;
 
+	public Cancha(String tipoSuperficie, String ubicacion, int capacidadEspectadores) {
+		this.tipoSuperficie = tipoSuperficie;
+		this.ubicacion = ubicacion;
+		this.capacidadEspectadores = capacidadEspectadores;
+		this.horario = new ArrayList<Hora>();
+	}
+
+	public void registrarHora(Hora hora) {
+		horario.add(hora);
+	}
+
 	public String getTipoSuperficie() {
 		return this.tipoSuperficie;
 	}
